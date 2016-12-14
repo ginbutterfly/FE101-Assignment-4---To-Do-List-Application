@@ -1,0 +1,54 @@
+body {
+  color: #333;
+  font-family: 'Lato', sans-serif;
+}
+
+#li-heading {
+	font-weight: normal;
+	text-decoration: underline;
+	padding-left: 40px;
+}
+
+#add-item-btn {
+	text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   font-family: 'Lato', sans-serif;
+   border-radius: 6px;
+   padding: 8px;
+}
+
+#add-item-btn:hover {
+	box-shadow: 5px 5px 3px #999999;
+}
+
+#new-item {
+	margin: 0;
+	font-size: 14px;
+   line-height: 16px;
+   height: 16px;
+   padding: 8px;
+   background: #fff;
+   border-radius: 6px;
+   font-family: 'Lato', sans-serif;
+}
+
+#items li {
+	color: #4d4d4d;
+	margin-bottom: 1.2em;
+	list-style-type: square;
+}
+
+#items li:nth-child(odd) {
+    color: #666666;
+}
+
+.delete {
+	padding: 2px 3px;
+	border-radius: 2px;
+}
+
+.delete:hover {
+	box-shadow: 2px 2px 2px #999999;
+}
